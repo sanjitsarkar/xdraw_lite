@@ -1,8 +1,7 @@
-import { useEffect, useRef } from "react";
 import { useProject } from "../../contexts/ProjectContext";
 
 const Canvas = () => {
-  const { project, initPaper, canvasRef } = useProject();
+  const { canvasRef } = useProject();
 
   return (
     <div className="">

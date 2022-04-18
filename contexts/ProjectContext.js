@@ -8,7 +8,6 @@ const ProjectProvider = ({ children }) => {
   const initPaper = (canvasRef) => {
     paperCore.install(canvasRef.current);
     paperCore.setup(canvasRef.current);
-    console.log("canvasRef", _project);
   };
 
   useEffect(() => {
